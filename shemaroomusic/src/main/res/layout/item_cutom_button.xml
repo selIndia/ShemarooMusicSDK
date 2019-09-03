@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/button_shadow">
+
+<androidx.appcompat.widget.AppCompatImageView
+    android:id="@+id/imgBtn"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:scaleType="fitCenter"
+    app:srcCompat="@drawable/logo" />
+
+<ProgressBar
+    android:id="@+id/proBtn"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_centerInParent="true"
+    android:visibility="gone" />
+
+</RelativeLayout>
